@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Canvas</title>
+    <link rel="stylesheet", href="{{url_for('static', filename ='css/grid-stly.css' )}}">    
+</head>
+<body>
+    <canvas id = 'main-grid' width="560", height="560"></canvas>
+    <br>
+    <button id = 'click'>clear</button><button id = 'getData'>submit</button>
+
+    <input type="text" id="predBox" placeholder="Prediction">
+    
+    <script src = "{{url_for('static', filename = 'js/gridFunctionality.js')}}"></script>   
+</body>
+
+</html>
